@@ -37,3 +37,15 @@ body {
 }
 
 /* End: Navbar */
+
+/* Media Query */
+@media (max-width: 768px) {
+  .navbar {
+    background: #1f1f1f;
+    opacity: 0.8;
+  }
+
+  .nav-link:hover {
+    border-bottom: none;
+  }
+}
