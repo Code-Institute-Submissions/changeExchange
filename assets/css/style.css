@@ -1,5 +1,6 @@
 /* Font Import */
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
 
 /* General Components */
 body {
@@ -12,6 +13,20 @@ body {
 /* Utility Classes */
 .green-color {
   color: #93cb52;
+}
+
+.btn {
+  border: none;
+  font-size: 1.5rem;
+  border-radius: 2rem;
+}
+
+.btn-green {
+  background-color: #93cb52;
+}
+
+.btn-green:hover {
+  background-color: #7ab436;
 }
 /* End Utility Classes */
 
@@ -37,6 +52,18 @@ body {
 }
 
 /* End: Navbar */
+
+/* Showcase */
+#showcase {
+  background: url(../img/showcase.jpg) bottom center / cover no-repeat;
+  min-height: 90vh;
+}
+
+#showcase h1 {
+  font-family: "Questrial", sans-serif;
+  line-height: 1;
+}
+/* End: Showcase */
 
 /* Media Query */
 @media (max-width: 768px) {
