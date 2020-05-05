@@ -75,4 +75,12 @@ body {
   .nav-link:hover {
     border-bottom: none;
   }
+
+  #showcase {
+    min-height: 85vh;
+  }
+
+  #showcase h1 {
+    font-size: 3rem;
+  }
 }
