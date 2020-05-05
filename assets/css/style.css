@@ -1,12 +1,22 @@
 /* Font Import */
-@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&display=swap");
 
 /* General Components */
 body {
   font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
   line-height: 1.4;
 }
 /* End General Components */
 
 /* Utility Classes */
 /* End Utility Classes */
+
+/* Navbar */
+.navbar {
+  font-weight: 100;
+}
+.navbar .navbar-brand h3 {
+  font-weight: 100;
+}
+/* End: Navbar */
