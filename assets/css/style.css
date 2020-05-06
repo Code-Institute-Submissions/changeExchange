@@ -160,6 +160,10 @@ p {
   transition: background 0.2s;
 }
 
+.accordion-button:focus {
+  outline: none;
+}
+
 .accordion-button::after {
   content: "\25be";
   float: right;
