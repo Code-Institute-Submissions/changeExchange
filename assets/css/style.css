@@ -119,6 +119,11 @@ p {
 #showcase h1 {
   line-height: 1;
 }
+
+.txt-type {
+  color: #93cb52;
+}
+
 /* End: Showcase */
 
 /* About */
