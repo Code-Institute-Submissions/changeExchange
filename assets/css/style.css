@@ -8,6 +8,7 @@ body {
   line-height: 1.4;
 }
 
+/* Headings */
 h1,
 h2,
 h3 {
@@ -32,6 +33,21 @@ p {
   color: #93cb52;
 }
 
+.underline-green {
+  width: 20%;
+  border-top: 2px solid #93cb52;
+}
+
+.background-light {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.background-dark {
+  background-color: #333;
+  color: #e6e1c5;
+}
+
 .btn {
   border: none;
   font-size: 1.5rem;
@@ -44,6 +60,10 @@ p {
 
 .btn-green:hover {
   background-color: #7ab436;
+}
+
+.upper {
+  text-transform: uppercase;
 }
 /* End Utility Classes */
 
