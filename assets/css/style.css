@@ -121,6 +121,12 @@ p {
 }
 /* End: Showcase */
 
+/* About */
+#about i {
+  color: #93cb52;
+}
+/* End: About */
+
 /* Media Query */
 @media (max-width: 768px) {
   .navbar {
