@@ -175,6 +175,16 @@ p {
   content: "\25b4";
 }
 
+.accordion-content {
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.2s;
+
+  padding: 0 15px;
+  background: #eee;
+  color: #1f1f1f;
+}
+
 /* End: FAQ */
 
 /* Media Query */

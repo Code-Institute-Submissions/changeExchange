@@ -57,6 +57,24 @@ class TypeWriter {
 
 // Functions
 
+// FAQ Accordion
+document.querySelectorAll(".accordion-button").forEach((button) => {
+  // Add Event listner to each button
+  button.addEventListener("click", () => {
+    // Get the accordion-contnet div
+    const accordionContent = button.nextElementSibling;
+
+    // Toggle accordion-button-active class
+    button.classList.toggle("accordion-button-active");
+
+    if (button.classList.contains("accordion-button-active")) {
+      accordionContent.style.maxHeight = accordionContent.scrollHeight + "px";
+    } else {
+      accordionContent.style.maxHeight = 0;
+    }
+  });
+});
+
 // Action Listners
 
 // Init On DOM Load
