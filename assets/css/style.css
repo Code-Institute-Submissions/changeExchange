@@ -5,8 +5,25 @@
 /* General Components */
 body {
   font-family: "Roboto", sans-serif;
-  font-size: 1.3rem;
   line-height: 1.4;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Questrial", sans-serif;
+}
+
+h2 {
+  font-size: 3rem;
+  font-weight: 100;
+  letter-spacing: 1px;
+}
+
+/* Paragraphs */
+p {
+  line-height: 1.5;
+  font-size: 1.25rem;
 }
 /* End General Components */
 
@@ -80,7 +97,6 @@ body {
 }
 
 #showcase h1 {
-  font-family: "Questrial", sans-serif;
   line-height: 1;
 }
 /* End: Showcase */
