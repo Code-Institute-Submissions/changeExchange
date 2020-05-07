@@ -66,6 +66,25 @@ class TypeWriter {
 
 // Functions
 
+// Smooth Scrolling
+$("#main-nav a").on("click", function (event) {
+  if (this.hash !== "") {
+    event.preventDefault();
+
+    const hash = this.hash;
+
+    $("html, body").animate(
+      {
+        scrollTop: $(hash).offset().top,
+      },
+      800,
+      function () {
+        window.location.hash = hash;
+      }
+    );
+  }
+});
+
 // FAQ Accordion
 document.querySelectorAll(".accordion-button").forEach((button) => {
   // Add Event listner to each button
@@ -136,6 +155,7 @@ function init() {
   new TypeWriter(txtElement, words, wait);
 }
 
+// Call caluclate function for converter
 calculate();
 
 //Get the current year for the copyright at the bottom of the page
