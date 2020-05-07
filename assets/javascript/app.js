@@ -9,6 +9,9 @@ const amountEl_two = document.getElementById("amount-two");
 const rateEl = document.getElementById("rate");
 const swap = document.getElementById("swap");
 
+// Variables for navbar scroll effect
+const navbar = document.getElementById("main-nav");
+
 // Typing effect class
 class TypeWriter {
   constructor(txtElement, words, wait = 3000) {
@@ -67,12 +70,16 @@ class TypeWriter {
 // Functions
 
 // Scroll effect for navbar
-$(function () {
-  $(document).scroll(function () {
-    var $nav = $("#main-nav");
-    $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
-  });
-});
+
+window.onscroll = function () {
+  if (window.pageYOffset < 100) {
+    // remove scrolled class if y offset less than 100
+    navbar.classList.remove("scrolling");
+  } else {
+    // Add when y offset is greater than 100
+    navbar.classList.add("scrolling");
+  }
+};
 
 // Smooth Scrolling
 $("#main-nav a").on("click", function (event) {
