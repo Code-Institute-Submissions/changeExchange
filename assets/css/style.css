@@ -213,13 +213,13 @@ p {
 #converter .currency select {
   padding: 10px 20px 10px 10px;
   border: 1px solid #dedede;
-  font-size: 16px;
+  font-size: 1.25rem;
 }
 
 #converter .currency input {
   border: 0;
   background: transparent;
-  font-size: 30px;
+  font-size: 2rem;
   text-align: right;
 }
 
@@ -248,6 +248,13 @@ p {
 
 /* Media Query */
 @media (max-width: 768px) {
+  /* Global */
+  p {
+    line-height: 1;
+    font-size: 1rem;
+  }
+
+  /* Navbar */
   .navbar {
     background: #1f1f1f;
     opacity: 0.8;
@@ -257,11 +264,16 @@ p {
     border-bottom: none;
   }
 
+  /* Showcase */
   #showcase {
     min-height: 90vh;
   }
 
   #showcase h1 {
     font-size: 3rem;
+  }
+
+  #showcase h2 {
+    font-size: 2rem;
   }
 }
