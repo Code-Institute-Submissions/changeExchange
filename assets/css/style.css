@@ -276,6 +276,15 @@ p {
   #showcase h2 {
     font-size: 2rem;
   }
+
+  /* Convertor */
+  #converter .currency select {
+    font-size: 1rem;
+  }
+
+  #converter .currency input {
+    font-size: 1.5rem;
+  }
 }
 
 @media (max-width: 500px) {
@@ -291,5 +300,14 @@ p {
 
   #showcase h2 {
     font-size: 1.5rem;
+  }
+
+  /* Convertor */
+  #converter .currency select {
+    font-size: 0.8rem;
+  }
+
+  #converter .currency input {
+    font-size: 1rem;
   }
 }
