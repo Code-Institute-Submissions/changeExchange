@@ -277,3 +277,19 @@ p {
     font-size: 2rem;
   }
 }
+
+@media (max-width: 500px) {
+  /* Global */
+  p {
+    font-size: 0.8rem;
+  }
+
+  /* Showcase */
+  #showcase h1 {
+    font-size: 2rem;
+  }
+
+  #showcase h2 {
+    font-size: 1.5rem;
+  }
+}
