@@ -227,6 +227,16 @@ p {
 
 /* End: Converter */
 
+/* Section: Main-Footer */
+#main-footer i {
+  color: #93cb52;
+}
+
+#main-footer i:hover {
+  color: #7ab436;
+}
+/* End Section: Main-Footer */
+
 /* Media Query */
 @media (max-width: 768px) {
   .navbar {
