@@ -50,8 +50,13 @@ p {
 
 .btn {
   border: none;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   border-radius: 2rem;
+  color: #fff;
+}
+
+.btn:focus {
+  outline: 0;
 }
 
 .btn-green {
@@ -190,6 +195,37 @@ p {
 }
 
 /* End: FAQ */
+
+/* Converter */
+#converter i {
+  color: #93cb52;
+}
+
+#converter .currency select {
+  padding: 10px 20px 10px 10px;
+  border: 1px solid #dedede;
+  font-size: 16px;
+}
+
+#converter .currency input {
+  border: 0;
+  background: transparent;
+  font-size: 30px;
+  text-align: right;
+}
+
+#converter .currency select:focus,
+#converter .currency input:focus {
+  outline: 0;
+}
+
+.rate {
+  color: #7ab436;
+  font-size: 1.5rem;
+  padding: 0 10px;
+}
+
+/* End: Converter */
 
 /* Media Query */
 @media (max-width: 768px) {
