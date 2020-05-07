@@ -85,17 +85,20 @@ p {
   font-weight: 400;
 }
 
-.nav-item {
+.navbar .nav-item {
   margin-right: 30px;
 }
 
-.nav-link {
-  padding-bottom: 0;
+.navbar .nav-link {
+  font-size: 1.25rem;
+  margin: 0 5px 0 5px;
+  color: #e6e1c5;
+  transition: all 0.5s;
 }
 
 .nav-link:hover {
-  transition: border 0.2s;
-  border-bottom: 1px solid #93cb52;
+  border-bottom: 2px solid #93cb52;
+  padding-bottom: 0;
 }
 
 /* End: Navbar */
