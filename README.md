@@ -146,3 +146,21 @@ This site is deployed using a feature of Github known as Github Pages. To make y
 8. Wait for a few minutes and refresh the page and the if successfully the message should now read: Your site is published at ...
 
 To create a local copy of the project you can select the repository and just above the readme file you will see a button that gives you the option to download or clone the file.
+
+## FUTURE FEATURES
+
+Through some bad planning on my part I did not get the chance to develop this project as much as I would have liked to. In the future I would like to add a review section that would let users read different reviews of the product. This would have been created using Javascript and it would allow a user to flip through different reviews
+I would also have liked to go more in depth with the exchange rate api and created different graphs which would show the fluctuations in the market which in turn would have been more visually impactful for the user.
+
+## REFERENCES
+
+images were taken from https://www.pexels.com/
+
+icons were sourced from https://fontawesome.com/
+
+typing effect was acheived by following this tutorial: https://youtu.be/POX3dT-pB4E
+
+FAQ section was built with help from the following book:
+SAM's Teach Yourself Web Publishing. Chapter 19 Hiding + Showing Content pages 538 - 550.
+
+Convertor section was built with the help of documentation found here: https://www.exchangerate-api.com/docs/free-exchange-rate-api and by following a tutorial found: https://www.udemy.com/course/web-projects-with-vanilla-javascript
