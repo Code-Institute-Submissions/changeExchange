@@ -65,6 +65,14 @@ As a user of the site:
 
 ## WIREFRAMES
 
+Desktop Wireframe:
+
+![Responsive Image](assets/design/desktop_wireframe.PNG)
+
+Mobile Wireframe:
+
+![Responsive Image](assets/design/mobile_wireframe.PNG)
+
 To help visualize the site I created desktop + mobile wireframes which can be seen below.
 
 ## TECHNOLOGIES USED
