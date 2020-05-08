@@ -67,6 +67,32 @@ As a user of the site:
 
 To help visualize the site I created desktop + mobile wireframes which can be seen below.
 
+## TECHNOLOGIES USED
+
+1. HTML: used for structure of the site.
+
+2. CSS: used to style the site
+
+3. Bootstrap: used for reponsive features + navigation bar
+
+4. Google Fonts: used to get a modern type set
+
+5. Font Awesome: used to get icons
+
+6. Coolor.io: used to help pick a colour scheme
+
+7. JQuery: a JS library that has been used to update the DOM in certain places on the site.
+
+8. JavaScript: Used to give some dynamic functionality on the site.
+
+9. Exchange Rate api: used to get the exhange rate for the convertor on the site.
+
+10. Github: used for version control
+
+11. Github pages: used to host the site
+
+12. VsCode: text editor that was used to develop the site.
+
 ## TESTING
 
 Testing was carried out on the HTML + CSS using the W3 schools validators. The pages were loaded in directly to the system and there were no errors found in either file. I didn't upload via linking the site to these validators as the last time I tried doing this the site found errors because I was using Bootstrap and the system had a problem understanding the css variables that are used throughout Bootstrap.
