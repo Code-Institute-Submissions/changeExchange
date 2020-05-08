@@ -34,3 +34,27 @@ The main strategy that I had in mind when creating this site was to build a visu
 ## PROJECT SCOPE
 
 The scope of this project was to create a site for the ficitional start up comapny ChangeExchange that would allow a user to interact with their exchange rate algorithm which in turn would allow a user to see the different rates that different currencies were trading around the world.
+
+## UI/UX
+
+The layout of the site has been created to catch the eye of any potental customers. The site has a clean style with a serious colour scheme that has been created to present the information to the user in an easy to follow manner. The dark and light color scheme is broken up by the use of a bright lime green colour which adds a hint of freshness to the site. In keeping with the serious tone of the site sans-serif fonts were used for both the headings and the paragraphs as I felt that this was in keeping with the more business like tone for the site.
+
+## USER STORIES
+
+To help develop the site even more I created a few user stories from the company's + user perspectives.
+
+As an owner of the site:
+I would like an attractive and eye catching site.
+I would like the site to contain information about the company and what we do.
+I would like a site that works well on different devices so that users can have the same experience on a mobile or desktop.
+
+As a user of the site:
+I would like a site that is easy to navigate.
+I would like to be able to interact with the product in a meaningful way.
+I would like to be able to find up to date information on the exchange rate.
+I would like the exchange rate convertor to be easy to use.
+I would like to be able to learn the site once and for this experince to be usable on different devices.
+
+## WIREFRAMES
+
+To help visualize the site I created desktop + mobile wireframes which can be seen below.
