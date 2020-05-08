@@ -44,17 +44,57 @@ The layout of the site has been created to catch the eye of any potental custome
 To help develop the site even more I created a few user stories from the company's + user perspectives.
 
 As an owner of the site:
-I would like an attractive and eye catching site.
-I would like the site to contain information about the company and what we do.
-I would like a site that works well on different devices so that users can have the same experience on a mobile or desktop.
+
+1. I would like an attractive and eye catching site.
+
+2. I would like the site to contain information about the company and what we do.
+
+3. I would like a site that works well on different devices so that users can have the same experience on a mobile or desktop.
 
 As a user of the site:
-I would like a site that is easy to navigate.
-I would like to be able to interact with the product in a meaningful way.
-I would like to be able to find up to date information on the exchange rate.
-I would like the exchange rate convertor to be easy to use.
-I would like to be able to learn the site once and for this experince to be usable on different devices.
+
+1. I would like a site that is easy to navigate.
+
+2. I would like to be able to interact with the product in a meaningful way.
+
+3. I would like to be able to find up to date information on the exchange rate.
+
+4. I would like the exchange rate convertor to be easy to use.
+
+5. I would like to be able to learn the site once and for this experince to be usable on different devices.
 
 ## WIREFRAMES
 
 To help visualize the site I created desktop + mobile wireframes which can be seen below.
+
+## TESTING
+
+Testing was carried out on the HTML + CSS using the W3 schools validators. The pages were loaded in directly to the system and there were no errors found in either file. I didn't upload via linking the site to these validators as the last time I tried doing this the site found errors because I was using Bootstrap and the system had a problem understanding the css variables that are used throughout Bootstrap.
+
+For responsivness I checked a website called am I responvie. I also checked how the site looked on a variety of devices and browsers. The devices that I checked the site on were:
+
+1. 15 inch HP Laptop
+
+2. 13 inch Macbook pro
+
+3. 21 inch desktop PC
+
+4. Samsung galaxy phone
+
+5. Iphone XS
+
+6. Iphone 7
+
+The site looked great on all these devices and didn't seem to show any problems.
+
+The browsers I used for testing are as follows:
+
+1. Google Chrome
+
+2. Firefox
+
+3. Safari
+
+4. Microsoft Edge
+
+This time when testing I decided not to test on Microsoft Internet Explorer for a number of reasons. Firstly Microsoft no longer support IE and have instead moved onto the Edge browser. Also the users on IE are very small. Finally I have used both flex box + Es6 JavaScript which the IE browser has problems handling.
