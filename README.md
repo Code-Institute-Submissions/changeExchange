@@ -97,4 +97,26 @@ The browsers I used for testing are as follows:
 
 4. Microsoft Edge
 
-This time when testing I decided not to test on Microsoft Internet Explorer for a number of reasons. Firstly Microsoft no longer support IE and have instead moved onto the Edge browser. Also the users on IE are very small. Finally I have used both flex box + Es6 JavaScript which the IE browser has problems handling.
+The site worked great in all the browsers that I tested it in. This time when testing I decided not to test on Microsoft Internet Explorer for a number of reasons. Firstly Microsoft no longer support IE and have instead moved onto the Edge browser. Also the user numbers on IE are very small. Finally I have used both flex box + Es6 JavaScript which the IE browser has problems handling.
+
+## DEPLOYMENT
+
+This site is deployed using a feature of Github known as Github Pages. To make your site go live on the internet you need to follow the following steps:
+
+1.Select the repository that you wish to make live.
+
+2. Make sure that the home page is called index.html
+
+3. At the top of the page click on the settings tab.
+
+4. Once in the settings section scroll down the page untill you get to a section called github pages.
+
+5. Where the option exits to select a branch to deploy change the option from none to master branch.
+
+6. If you have followed these steps correctly the page should reload.
+
+7. Scroll back down to the github pages section and you should see a message that reads something like this: your site is ready to be deployed at username.github.io/example
+
+8. Wait for a few minutes and refresh the page and the if successfully the message should now read: Your site is published at ...
+
+To create a local copy of the project you can select the repository and just above the readme file you will see a button that gives you the option to download or clone the file.
